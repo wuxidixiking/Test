@@ -1,0 +1,22 @@
+{
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    /*  prettier的配置 */
+    "editor.formatOnSave": true, // 配置保存是否自动对齐
+    // "prettier.printWidth": 160, // 超过最大值换行
+    "prettier.tabWidth": 4, // 缩进字节数
+    "prettier.useTabs": false, // 缩进不使用tab，使用空格
+    "prettier.semi": true, // 句尾添加分号
+    "prettier.singleQuote": true, // 使用单引号代替双引号
+    "prettier.arrowParens": "avoid", //  (x) => {} 箭头函数参数只有一个时是否要有小括号。avoid：省略括号
+    "prettier.bracketSpacing": true, // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
+    "prettier.endOfLine": "auto", // 结尾是 \n \r \n\r auto
+    "workbench.startupEditor": "newUntitledFile",
+    "vetur.ignoreProjectWarning": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontLigatures": null, // 结尾是 \n \r \n\r auto
+    "breadcrumbs.enabled": true, // 开启 vscode 文件路径导航
+}
